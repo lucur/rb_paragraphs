@@ -1,0 +1,9 @@
+description: Paragraph Type Card Collection
+core: 8.x
+dependencies:
+  - paragraphs
+  - paragraphs_rb
+hidden: false
+name: RB Paragraph Card Collection
+package: Paragraphs
+type: module

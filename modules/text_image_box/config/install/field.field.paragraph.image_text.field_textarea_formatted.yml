@@ -1,0 +1,21 @@
+uuid: 04eed554-20cc-4481-9b07-7bf5fd577a7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_textarea_formatted
+    - paragraphs.paragraphs_type.image_text
+  module:
+    - text
+id: paragraph.image_text.field_textarea_formatted
+field_name: field_textarea_formatted
+entity_type: paragraph
+bundle: image_text
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

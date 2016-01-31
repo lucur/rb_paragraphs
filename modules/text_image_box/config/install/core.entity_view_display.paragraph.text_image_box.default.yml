@@ -1,0 +1,25 @@
+uuid: d4799698-4a0b-4bfd-a84f-79deacf8fdca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_image_box.field_text_image_items
+    - paragraphs.paragraphs_type.text_image_box
+  module:
+    - entity_reference_revisions
+id: paragraph.text_image_box.default
+targetEntityType: paragraph
+bundle: text_image_box
+mode: default
+content:
+  field_text_image_items:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,25 @@
+uuid: 0895e97a-c879-4c29-9742-66f4da7c29dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_list.field_card_items
+    - paragraphs.paragraphs_type.card_list
+  module:
+    - entity_reference_revisions
+id: paragraph.card_list.default
+targetEntityType: paragraph
+bundle: card_list
+mode: default
+content:
+  field_card_items:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

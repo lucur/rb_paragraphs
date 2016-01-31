@@ -1,0 +1,75 @@
+/.htaccess
+/.htpasswd
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore path to 3pc repo
+sites/all/themes/jmb/jmb-html
+
+# We won't need those files.
+/README.txt
+*README.md
+*CHANGELOG.txt
+*COPYRIGHT.txt
+*INSTALL.*txt
+*LICENSE.*txt
+*MAINTAINERS.txt
+*STATUS.*txt
+*UPGRADE.txt
+web.config
+
+
+# meld backup files.
+*.orig*
+
+# Numerous always-ignore extensions
+*.bak
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+#netbeans
+nbproject
+*.sublime-project
+*.sublime-workspace
+
+#phpstorm
+.idea
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Ignore sibling-paths in root
+/private
+/sql-backup
+/tmp
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+node_modules
+dist
+.sass-cache

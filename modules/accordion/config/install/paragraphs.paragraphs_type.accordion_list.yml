@@ -1,0 +1,6 @@
+uuid: 2483022c-3a6b-46d3-9458-883f1d1166b9
+langcode: en
+status: true
+dependencies: {  }
+id: accordion_list
+label: 'Accordion List'

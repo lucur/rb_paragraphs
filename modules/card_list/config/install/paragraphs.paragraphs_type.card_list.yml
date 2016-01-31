@@ -1,0 +1,6 @@
+uuid: 0d47a7bf-b73d-42f7-a403-3b4bcdeaf96c
+langcode: en
+status: true
+dependencies: {  }
+id: card_list
+label: 'Card List'

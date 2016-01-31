@@ -1,0 +1,9 @@
+description: Paragraph Type Photo Banner
+core: 8.x
+dependencies:
+  - paragraphs
+  - paragraphs_rb
+hidden: false
+name: RB Paragraph Photo Banner
+package: Paragraphs
+type: module

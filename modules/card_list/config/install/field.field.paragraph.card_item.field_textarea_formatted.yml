@@ -1,0 +1,21 @@
+uuid: 5b34a8e5-f945-44d0-8c0e-140ee3cffb7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_textarea_formatted
+    - paragraphs.paragraphs_type.card_item
+  module:
+    - text
+id: paragraph.card_item.field_textarea_formatted
+field_name: field_textarea_formatted
+entity_type: paragraph
+bundle: card_item
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

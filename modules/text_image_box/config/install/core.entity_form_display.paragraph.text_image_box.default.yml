@@ -1,0 +1,27 @@
+uuid: ab73b303-ed8e-4aff-9223-357747d060f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_image_box.field_text_image_items
+    - paragraphs.paragraphs_type.text_image_box
+  module:
+    - paragraphs
+id: paragraph.text_image_box.default
+targetEntityType: paragraph
+bundle: text_image_box
+mode: default
+content:
+  field_text_image_items:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

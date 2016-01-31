@@ -1,0 +1,23 @@
+uuid: e268e7c5-1b94-4721-8000-abbbf600495b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_image.field_textarea_formatted
+    - paragraphs.paragraphs_type.text_image
+  module:
+    - text
+id: paragraph.text_image.default
+targetEntityType: paragraph
+bundle: text_image
+mode: default
+content:
+  field_textarea_formatted:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+hidden:
+  created: true
+  uid: true

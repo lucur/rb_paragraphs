@@ -1,0 +1,25 @@
+uuid: 468daa20-765c-4a70-ad00-c4020c40103e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_slideshow.field_images
+    - paragraphs.paragraphs_type.image_slideshow
+  module:
+    - image
+id: paragraph.image_slideshow.default
+targetEntityType: paragraph
+bundle: image_slideshow
+mode: default
+content:
+  field_images:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,61 @@
+uuid: 40284014-7566-429e-b40e-149df8f73223
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.photo_banner.field_headline
+    - field.field.paragraph.photo_banner.field_image
+    - field.field.paragraph.photo_banner.field_link
+    - field.field.paragraph.photo_banner.field_pre_head
+    - field.field.paragraph.photo_banner.field_textarea_plain
+    - paragraphs.paragraphs_type.photo_banner
+  module:
+    - image
+    - link
+id: paragraph.photo_banner.default
+targetEntityType: paragraph
+bundle: photo_banner
+mode: default
+content:
+  field_headline:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_link:
+    weight: 4
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_pre_head:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_textarea_plain:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,6 @@
+uuid: 258fe953-ab42-4852-a900-f91ef853c729
+langcode: en
+status: true
+dependencies: {  }
+id: image_text
+label: 'TI: Image Text'
