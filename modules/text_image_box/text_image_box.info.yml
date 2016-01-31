@@ -2,7 +2,7 @@ description: Paragraph Type Text Image Box
 core: 8.x
 dependencies:
   - paragraphs
-  - paragraphs_rb
+  - rb_paragraphs
 hidden: false
 name: RB Paragraph Text Image Box
 package: Paragraphs
